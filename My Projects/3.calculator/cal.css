@@ -1,0 +1,81 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+h3{
+    text-align: center;
+    justify-content: center;
+    color: rgb(30, 28, 28);
+    padding: 10px;
+    margin: 10px;
+    letter-spacing: 2px;
+    font-family: "Electrolize", sans-serif;
+    text-shadow: -1px 0px  1px  grey;
+
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(45deg,#0a0a0a,#3a4452);
+}
+.calculator{
+    border: 1px solid rgb(174, 169, 169);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 5px rgb(45, 43, 43) ;
+    background:rgb(252, 247, 247) ;
+    box-shadow: 0px 0px 50px rgb(10, 1, 1);
+
+}
+input{
+    width: 360px;
+    margin: 10px;
+    height: 100px;
+    text-align: right;
+    color: rgb(217, 212, 212);
+    padding: 24px;
+    font-size: 30px;
+    border: 2px solid rgb(190, 189, 189);
+    background: linear-gradient(45deg,#0a0a0a,#3a4452);
+    border-radius: 1px;
+    box-shadow: 0px 1px 15px  rgb(16, 1, 1);
+
+}
+button{
+    width: 70px;
+    height: 50px;
+    margin: 11px;
+    #background: transparent;
+    color:rgb(240, 235, 235);
+    border-radius: 10px;
+    background: linear-gradient(45deg,#0a0a0a,#3a4452);
+    cursor: pointer;
+    color: rgb(249, 245, 245);
+    
+    box-shadow: 0px 10px 25px  rgb(71, 69, 69);
+    border: 1px solid rgb(220, 216, 216);
+}
+.op{
+    color: #6ff4eb;
+
+}
+.equal{
+    width: 165px;
+    background: rgb(226, 66, 8);
+    color: rgb(248, 244, 244);
+    border: 1px solid rgb(238, 236, 236);
+}
+.equal:hover{
+    background: #14cfc3;
+    border: 0.1px solid rgb(156, 154, 154);
+    color: rgb(19, 18, 18);
+}
